@@ -1,0 +1,564 @@
+
+/* ヘッダー */
+.header{
+  height: 690px;
+  width: 1440px;
+  background-image: url(airbnb.png);
+  background-size: cover;
+  padding: 0;
+}
+
+.header-logo{
+  height: 64px;
+}
+
+.header-logo span{
+  color: white;
+  padding: 16px 0 0 20px;
+}
+
+.header-top{
+  background-color: white;
+  height: 500px;
+  width: 444px;
+  padding: 10px 32px 32px 32px;
+  margin-right: 301px;
+  margin-left: 200px;
+}
+
+.header-top h1{
+  margin-bottom: 0px;
+}
+
+.header-top h2{
+  font-size: 18px;
+  color: #767676;
+  font-weight: 200;
+}
+
+.a{
+  display:inline-block;
+  margin-bottom: 20px;
+}
+
+.form{
+  font-size: 15px;
+}
+
+input{
+  width: 410px;
+  height: 30px;
+}
+
+.check input{
+  width: 200px;
+  height: 30px;
+}
+
+.check2 input{
+  width: 200px;
+  height: 30px;
+}
+
+.form2{
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  background-color: #ff5a5f;
+  color: #ffffff;
+  padding: 10px 0;
+  line-height: 10px;
+}
+
+/* ヘッダー２ */
+.header2{
+  height: 100px;
+  width: 850px;
+  padding: 50px 100px 60px 100px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.header2 h2{
+  text-align: center;
+  color: #484848;
+  font-size: 28px;
+}
+
+
+/* 下線 */
+.bottom{
+  height: 30px;
+  width: 70px;
+  border-bottom: 2px solid #808080;
+  margin: 30px auto;
+}
+
+
+/* 魅力 */
+.top{
+  /* height: 500px; */
+}
+
+.top-heading{
+  margin-bottom: 70px;
+}
+
+.top-heading h1{
+  text-align: center;
+  font-size: 60px;
+  color: #333333;
+  font-weight: 900;
+}
+
+.top-main{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.top-set{
+  height: 500px;
+  color: #484848;
+  line-height: 1.75;
+}
+
+.main-left{
+  float: left;
+  width: 440px;
+  height: 433px;
+  margin-right: 60px;
+}
+
+.main-right{
+  float: right;
+  width: 440px;
+  height: 433px;
+  margin-right: 60px;
+}
+
+
+/* 予約 */
+
+.top2{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.top2-heading h1{
+  color: #444444;
+  font-size: 24px;
+}
+
+.top2-set{
+  float: left;
+  width: 250px;
+  margin-right: 20px;
+}
+
+.top2-main{
+  cursor: pointer;
+  height: 300px;
+}
+
+.top2-main a{
+  text-decoration: none;
+}
+
+.place{
+  color: #555555;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.intro{
+  color: #555555;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.price{
+  color: #555555;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.block{
+  color: rgb(0,132,137);
+  display: block;
+  margin-bottom: 80px;
+}
+
+
+/* ゲストの声 */
+.top3{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.top3-heading{
+  color: #484848;
+  font-weight: 800;
+}
+
+.top3-heading h1{
+  font-size: 24px;
+}
+
+.thin{
+  color: #484848;
+  font-weight: 200;
+}
+
+.top3-main{
+  weight: 100%;
+  height: 410px;
+}
+
+.top3-set{
+  float: left;
+  margin-right: 20px;
+}
+
+.top3-set p{
+  font-size: 14px;
+  color: #555555;
+}
+
+.name{
+  float: left;
+}
+
+.name p{
+  margin: 0 20px;
+}
+
+.circle{
+  border-radius: 25px;
+}
+
+.top3-footer{
+  margin: 20px 0;
+  text-align: right;
+}
+
+.top3-footer a{
+  color: #666666;
+}
+
+.top3-footer p{
+  color: #666666;
+  font-size: 12px;
+}
+
+
+/* 予約３ステップ */
+.top4{
+  width: 1100px;
+  /* height: 400px; */
+  margin: 0 auto;
+}
+
+.top4-heading h1{
+  text-align: center;
+  color: #333333;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.top4-main{
+  height: 340px;
+  width: 100%;
+}
+
+.top4-set{
+  width: 33%;
+  float: left;
+  padding-right: 70px;
+  box-sizing: border-box;
+}
+
+.top4-set h3{
+  color: #484848;
+  font-size: 24px;
+}
+
+.top4-set p{
+  color: #777777;
+  font-size: 16px;
+}
+
+
+/* 安心と安全 */
+.top5{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.top5-heading h1{
+  text-align: center;
+  color: #333333;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.top5-main{
+  height: 350px;
+  width: 100%;
+}
+
+.top5-set{
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.top5-left{
+  padding-right: 120px;
+  line-height: 1.8;
+  color: #777777;
+  font-size: 16px;
+}
+
+
+/* コミュニティ */
+.top6{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.top6-heading h1{
+  text-align: center;
+  color: #333333;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.top6-main{
+  height: 180px;
+  width: 100%;
+}
+
+.top6-set{
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+  padding-left: 80px;
+  text-align: center;
+}
+
+.top6-set h3{
+  color: #484848;
+  font-size: 54px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.top6-set p{
+  color: #777777;
+  margin: 0;
+}
+
+
+/* ホスト */
+.top7{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.top7-heading h1{
+  text-align: center;
+  color: #333333;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+
+/* 質問 */
+.top8{
+  width: 1300px;
+  height: 420px;
+  margin: 0 auto;
+}
+
+.top8-heading h1{
+  width: 1100px;
+  text-align: center;
+  margin: 0 auto;
+  color: #333333;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.top8-main{
+  height: 290px;
+  width: 100%;
+}
+
+.top8-set{
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding-right: 20px;
+  padding-top: 60px;
+}
+
+.top8-left{
+  padding-left: 100px;
+}
+
+.top8-set a{
+  display: block;
+  padding: 28px 0;
+  color: #008489;
+  border-bottom: 1px solid #EBEBEB;
+  font-size: 18px;
+}
+
+
+/* パートナー */
+.top9{
+  width: 1100px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.top9-heading h1{
+  text-align: center;
+  color: #333333;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.top9-main {
+  height: 450px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* わが家 */
+.top10{
+  width: 1100px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.top10-heading h1{
+  text-align: center;
+  color: #333333;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.top10-main {
+  height: 450px;
+  width: 100%;
+  text-align: center;
+}
+
+/* 下線 ２*/
+.bottom2{
+  height: 30px;
+  width: 100%;
+  border-bottom: 1px solid #EEEEEE;
+  margin: 30px auto;
+}
+
+
+/* フッター */
+.footer{
+  height: 260px;
+  width: 1100px;
+  margin: 0 auto;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.footer-set{
+  float: left;
+  width: 28%;
+  box-sizing: border-box;
+}
+
+.footer-set a{
+  display: inline-block;
+  color: #767676;
+  font-size: 14px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.footer-right{
+  float: right;
+  width: 16%;
+  text-align: left;
+ }
+
+ .footer-right a{
+   display: block;
+   color: #767676;
+   font-size: 14px;
+   text-decoration: none;
+ }
+
+ .fab{
+   margin: 65px 10px 20px 10px;
+   color: #767676;
+ }
+
+ .new{
+   background-color: #006A70;
+   color: white;
+   font-size: 14px;
+   padding: 4px;
+   margin-left: 10px;
+   border-radius: 6px;
+ }
+
+
+/* フッター２ */
+.footer2{
+  height: 130px;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.footer2-left{
+  float: left;
+}
+
+.footer2-center{
+  width: 50%;
+  padding-top: 20px;
+}
+
+.footer2-right{
+  float: right;
+  width: 30%;
+  padding-top: 40px;
+}
+
+.fa-asymmetrik{
+  padding-top: 40px;
+  padding-right: 10px;
+  margin: 0;
+}
+
+.footer2-center a,p{
+  color: #767676;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 0;
+}
+
+.form3{
+  float: right;
+  margin-left: 10px;
+  height: 30px;
+  width: 30%;
+  box-sizing: border-box;
+  color: #767676;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid #EEEEEE;
+}
